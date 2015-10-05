@@ -1,6 +1,8 @@
 # npm-janitor-web
 > Web interface.
 
+[npm-janitor](./npm-janitor.gif)
+
 # quick start
 
 ```

@@ -10,7 +10,7 @@ class App extends React.Component {
   }
 
   _handleClick (name) {
-    fetch(`https://npm-janitor.herokuapp.com/api/${name}`).
+    fetch(`https://npm-janitor.herokuapp.com/api/${name.toLowerCase()}`).
     then((data) => data.json()).
     then((json) => this.setState({json}));
   }

@@ -1,0 +1,30 @@
+# npm-janitor-web
+> Web interface.
+
+# quick start
+
+```
+$ npm run watch &
+$ npm start
+```
+
+# commands
+
+* `npm run build` - build for production
+* `npm run watch` - automatically recompile during development
+* `npm start` - start a static development web server
+
+
+# TODO
+
+* Break the UI into more components.
+
+* Add a spinner on search.
+
+* Add a lenged for colors.
+
+* Some animations?
+
+* Add a login with github.
+
+* Add a send issue button.

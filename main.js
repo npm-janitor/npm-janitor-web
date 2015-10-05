@@ -16,7 +16,6 @@ class App extends React.Component {
   }
 
   render () {
-      debugger;
         return <div>
         <img src='http://i.imgur.com/zKKUaav.gif'/>
         <div className="info">

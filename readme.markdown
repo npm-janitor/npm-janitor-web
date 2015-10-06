@@ -21,8 +21,6 @@ $ npm start
 
 * Break the UI into more components.
 
-* Add a spinner on search.
-
 * Add a lenged for colors.
 
 * Some animations?

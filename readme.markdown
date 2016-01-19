@@ -21,7 +21,7 @@ $ npm start
 
 * Break the UI into more components.
 
-* Add a lenged for colors.
+* Add a legend for colors.
 
 * Some animations?
 

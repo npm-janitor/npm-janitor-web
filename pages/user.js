@@ -1,6 +1,6 @@
-import Nav from '../components/nav'
+import Header from '../components/header'
 
 export default () => <div>
-  <Nav/>
+  <Header/>
   user
 </div>

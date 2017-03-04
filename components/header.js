@@ -1,4 +1,4 @@
-const Nav = styled.div`
+const Header = styled.div`
   height: 50px;
   background: #3EB1D3;
   line-height: 50px;
@@ -9,6 +9,6 @@ const Logo = styled.img`
   height: 50px;
 `
 
-export default () => <Nav>
+export default () => <Header>
   <Logo src="static/logo.png"/>
-</Nav>
+</Header>

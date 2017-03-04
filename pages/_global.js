@@ -8,6 +8,7 @@ html, body {
   padding: 0;
   background: #F8F9FA;
   font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
 `
 
@@ -15,6 +16,7 @@ const Head = () => (
   <head>
     <title>npm janitor</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet"/>
   </head>
 )
 

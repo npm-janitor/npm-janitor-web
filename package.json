@@ -1,0 +1,31 @@
+{
+  "name": "npm-janitor-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-janitor/npm-janitor-web.git"
+  },
+  "keywords": [],
+  "author": "siddharthkp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npm-janitor/npm-janitor-web/issues"
+  },
+  "homepage": "https://github.com/npm-janitor/npm-janitor-web#readme",
+  "dependencies": {
+    "next": "2.0.0-beta.36"
+  },
+  "devDependencies": {
+    "jest": "19.0.0"
+  }
+}

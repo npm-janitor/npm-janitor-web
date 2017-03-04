@@ -1,6 +1,7 @@
 import Header from '../components/header'
 
-export default () => <div>
-  <Header/>
-  home
+const Home = () => <div>
+  <Header full/>
 </div>
+
+export default Home

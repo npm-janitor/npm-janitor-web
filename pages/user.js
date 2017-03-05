@@ -26,7 +26,9 @@ const User = class extends React.Component {
         loading={this.state.loading}
       />
       <Grid>
-        {this.props.modules.map((module, index) => <Module key={index} module={module}/>)}
+        {this.props.modules.map((module, index) => {
+          return <Module key={index} module={module}/>
+        })}
       </Grid>
     </div>
   }

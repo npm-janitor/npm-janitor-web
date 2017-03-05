@@ -2,7 +2,7 @@
 
 exports[`renders invalid module 1`] = `
 <span
-  className="fVpfmz"
+  className="TpbjZ"
 >
   <a
     className="igpMrq"
@@ -10,7 +10,8 @@ exports[`renders invalid module 1`] = `
     target="blank"
   >
     <div
-      className="bAiiZt"
+      className="gclOdG"
+      color="#c0392b"
     >
       module
     </div>
@@ -40,7 +41,7 @@ exports[`renders invalid module 1`] = `
 
 exports[`renders valid module 1`] = `
 <span
-  className="cZhuiQ"
+  className="gXtLUw"
 >
   <a
     className="igpMrq"
@@ -48,7 +49,8 @@ exports[`renders valid module 1`] = `
     target="blank"
   >
     <div
-      className="bAiiZt"
+      className="jgJsZQ"
+      color=""
     >
       module
     </div>

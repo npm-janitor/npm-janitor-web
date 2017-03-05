@@ -35,7 +35,7 @@ exports[`renders with modules 1`] = `
     className="lIpXm"
   >
     <span
-      className="cZhuiQ"
+      className="gXtLUw"
     >
       <a
         className="igpMrq"
@@ -43,7 +43,8 @@ exports[`renders with modules 1`] = `
         target="blank"
       >
         <div
-          className="bAiiZt"
+          className="jgJsZQ"
+          color=""
         >
           npm-janitor-web
         </div>

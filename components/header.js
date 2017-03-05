@@ -32,12 +32,12 @@ const Header = class extends React.Component {
   onKeyUp = event => {
     if (event.which === 13) {
       Router.push(`/user?name=${this.state.username}`)
-      if (!this.state.full) this.setState({full: true})
       /*
         The user page is rendered on the server,
         which takes a little time, we can animate
         the header to give a perception of better transition
       */
+      if (!this.state.full) this.setState({full: true})
     }
   }
 

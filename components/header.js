@@ -21,12 +21,12 @@ const Header = class extends React.Component {
     this.state = {
       username: props.username || '',
       full: props.full,
-      loading: props.loading
+      loading: false
     }
   }
 
   componentWillReceiveProps (props) {
-    this.setState({full: props.full})
+    this.setState({full: props.full, loading: props.loading})
   }
 
   onChange = event => this.setState({username: event.target.value})
@@ -54,7 +54,7 @@ const Header = class extends React.Component {
             onKeyUp={this.onKeyUp}
             defaultValue={this.props.username}
           />
-          {this.state.loading ? <Loading/> : ''}
+          <Loading show={this.state.loading}/>
         </div>
       </div>
     </Wrapper>

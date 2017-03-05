@@ -6,10 +6,10 @@ const get = (username) => {
     let modules = response.data
     modules = modules.map(module => ({
       name: module.module,
-      errors: module.info.errors,
       valid: module.info.valid,
-      warnings: module.info.warnings,
-      recommendations: module.info.recommendations
+      errors: module.info.errors || [],
+      warnings: module.info.warnings || [],
+      suggestions: module.info.recommendations || []
     }))
     return {modules: modules}
   })

@@ -2,6 +2,7 @@ import Router from 'next/router'
 import Logo from './logo'
 import Input from './input'
 import Loading from './loading'
+import Tip from './tip'
 
 const timingFunction = 'cubic-bezier(0.19, 1, 0.22, 1)'
 
@@ -53,7 +54,9 @@ const Header = class extends React.Component {
             onChange={this.onChange}
             onKeyUp={this.onKeyUp}
             defaultValue={this.props.username}
+            full={!this.state.full}
           />
+          <Tip show={this.state.username && !this.state.loading} blink={this.state.full && this.state.username}>↵</Tip>
           <Loading show={this.state.loading}/>
         </div>
       </div>

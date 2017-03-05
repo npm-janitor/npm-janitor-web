@@ -11,7 +11,7 @@ const Loader = styled.div`
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  animation: ${spin} 2s linear infinite;
+  animation: ${spin} 1s linear infinite;
   opacity: ${props => props.show ? 1 : 0}
   margin: 20px auto 0;
 `

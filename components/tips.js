@@ -28,7 +28,7 @@ const Tips = ({module}) => <div>
 
   {module.suggestions.length ? <div>
     Add optional {pluralize('field', module.suggestions.length)}: { }
-    {getTipsBlock(module.warnings)}
+    {getTipsBlock(module.suggestions)}
   </div> : ''}
 </div>
 

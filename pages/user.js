@@ -29,6 +29,7 @@ const User = class extends React.Component {
         {this.props.modules.map((module, index) => {
           return <Module key={index} module={module}/>
         })}
+        {!this.props.modules.length ? <img src='static/nothing.png'/> : ''}
       </Grid>
     </div>
   }

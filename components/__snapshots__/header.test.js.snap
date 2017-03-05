@@ -2,11 +2,11 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="XRAxu"
+  className="evniLY"
 >
   <div>
     <img
-      className="hQbxwO"
+      className="cMyKIV"
       src="static/logo.png"
     />
     <div>
@@ -20,7 +20,7 @@ exports[`renders correctly 1`] = `
         type="text"
       />
       <div
-        className="bvUXDN"
+        className="htwhPz"
       />
     </div>
   </div>

@@ -7,7 +7,7 @@ exports[`renders correctly 1`] = `
   >
     <div>
       <img
-        className="hQbxwO"
+        className="etfsU"
         src="static/logo.png"
       />
       <div>
@@ -28,6 +28,56 @@ exports[`renders correctly 1`] = `
   </div>
   <div
     className="lIpXm"
-  />
+  >
+    <span
+      className="cZhuiQ"
+    >
+      <a
+        className="igpMrq"
+        href="https://npmjs.com/npm-janitor-web"
+        target="blank"
+      >
+        <div
+          className="bAiiZt"
+        >
+          npm-janitor-web
+        </div>
+      </a>
+      <div>
+        
+        <div>
+          Add recommended 
+          field
+          : 
+          <span>
+            <span
+              className="lhecVm"
+            >
+              Add recommended field: contributors
+            </span>
+            <br />
+            <br />
+          </span>
+        </div>
+        <div>
+          Add optional 
+          field
+          : 
+          <span>
+            <span
+              className="lhecVm"
+            >
+              Add optional field: homepage
+            </span>
+            <br />
+            <br />
+          </span>
+        </div>
+      </div>
+      <div
+        className="imcGyF"
+      />
+    </span>
+  </div>
 </div>
 `;

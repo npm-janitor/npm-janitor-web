@@ -46,7 +46,7 @@ const Header = class extends React.Component {
   render () {
     return <Wrapper full={this.state.full}>
       <div>
-        <Logo big={this.props.full}/>
+        <Logo big={this.state.full}/>
         <div>
           <Input
             type="text" autoFocus placeholder="enter your npm username"

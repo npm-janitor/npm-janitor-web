@@ -17,7 +17,7 @@ const Tips = ({module}) => <div>
 
   {module.errors.length ? <div>
     <div> {module.errors.length} {pluralize('error', module.errors.length)}</div>
-    {module.errors.map(error => <div>- {error}</div>)}
+    {module.errors.map((error, index) => <div key={index}>- {error}</div>)}
     <br/>
   </div> : ''}
 

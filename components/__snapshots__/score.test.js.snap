@@ -1,6 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders correctly when module has errors 1`] = `
+<div
+  className="kUklBY"
+/>
+`;
+
+exports[`renders correctly when score <= 6  1`] = `
+<div
+  className="jyRNRQ"
+/>
+`;
+
+exports[`renders correctly when score > 6  1`] = `
 <div
   className="huXapt"
 />

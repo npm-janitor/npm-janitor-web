@@ -4,9 +4,9 @@ import renderer from 'react-test-renderer'
 
 it('renders correctly', () => {
   let module = {
-    errors: [],
-    warnings: [],
-    suggestions: []
+    errors: ['name is not valid'],
+    warnings: ['Missing recommended field: contributors'],
+    suggestions: ['Missing recommended field: engines']
   }
   const tree = renderer.create(
     <Tips module={module}/>

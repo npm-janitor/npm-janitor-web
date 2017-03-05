@@ -6,7 +6,7 @@ import Grid from '../components/grid'
 const User = class extends React.Component {
   constructor (props) {
     super(props)
-    this.state = {fullHeader: true}
+    this.state = {fullHeader: true, user: props.url.query.name}
   }
 
   static async getInitialProps (context) {
@@ -21,7 +21,7 @@ const User = class extends React.Component {
   render() {
     return <div>
       <Header
-        username={this.props.url.query.name}
+        username={this.state.user}
         full={this.state.fullHeader}
         loading={this.state.loading}
       />

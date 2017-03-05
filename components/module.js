@@ -6,6 +6,7 @@ import Tips from './tips'
 
 const GridItem = styled(Card)`
   width: 300px;
+  min-height: 150px;
   position: relative;
   @media (max-width: 720px) {
     width: 100%;

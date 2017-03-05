@@ -30,6 +30,11 @@ const Tips = ({module}) => <div>
     Add optional {pluralize('field', module.suggestions.length)}: { }
     {getTipsBlock(module.suggestions)}
   </div> : ''}
+
+  {!module.errors.length && !module.warnings.length && !module.suggestions.length ? <div>
+    All good <br/> 💯
+  </div>: ''}
+
 </div>
 
 export default Tips

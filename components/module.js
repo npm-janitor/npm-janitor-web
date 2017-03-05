@@ -10,13 +10,13 @@ const GridItem = styled(Card)`
   @media (max-width: 720px) {
     width: 100%;
 	}
-  background: ${props => props.valid ? '#FFF' : '#F2C5C5'}
+  border: ${props => props.valid ? 'none' : '1px solid #c0392b'}
   line-height: 1.5;
 `
 
 const Module = ({module}) => <GridItem valid={module.valid}>
   <Link href={`https://npmjs.com/${module.name}`} target="blank">
-    <Heavy>{module.name}</Heavy>
+    <Heavy color={!module.valid ? '#c0392b': ''}>{module.name}</Heavy>
   </Link>
   <Tips  module={module}/>
   <Score module={module}/>

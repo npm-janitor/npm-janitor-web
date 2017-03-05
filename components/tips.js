@@ -1,10 +1,5 @@
 import pluralize from 'pluralize'
-
-const Code = styled.span`
-  font-family: monospace;
-
-  color: #777;
-`
+import Code from './code'
 
 const getTipsBlock = tips => {
   return <span>

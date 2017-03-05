@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const get = (username) => {
-  return axios.get(`https://npm-janitor.herokuapp.com/api/${username}`)
+  return axios.get(`https://npm-janitor-api.now.sh/${username}`)
   .then(response => {
     let modules = response.data
     modules = modules.map(module => ({

@@ -15,12 +15,16 @@ const User = class extends React.Component {
   }
 
   componentDidMount () {
-    this.setState({fullHeader: false})
+    this.setState({fullHeader: false, loading: false})
   }
 
   render() {
     return <div>
-      <Header full={this.state.fullHeader} username={this.props.url.query.name}/>
+      <Header
+        username={this.props.url.query.name}
+        full={this.state.fullHeader}
+        loading={this.state.loading}
+      />
       <Grid>
         {this.props.modules.map((module, index) => <Module key={index} module={module}/>)}
       </Grid>

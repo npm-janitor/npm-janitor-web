@@ -1,6 +1,7 @@
 import Router from 'next/router'
 import Logo from './logo'
 import Input from './input'
+import Loading from './loading'
 
 const timingFunction = 'cubic-bezier(0.19, 1, 0.22, 1)'
 
@@ -19,7 +20,8 @@ const Header = class extends React.Component {
     super(props)
     this.state = {
       username: props.username || '',
-      full: props.full
+      full: props.full,
+      loading: props.loading
     }
   }
 
@@ -37,7 +39,7 @@ const Header = class extends React.Component {
         which takes a little time, we can animate
         the header to give a perception of better transition
       */
-      if (!this.state.full) this.setState({full: true})
+      this.setState({loading: true, full: true})
     }
   }
 
@@ -52,7 +54,7 @@ const Header = class extends React.Component {
             onKeyUp={this.onKeyUp}
             defaultValue={this.props.username}
           />
-
+          {this.state.loading ? <Loading/> : ''}
         </div>
       </div>
     </Wrapper>

@@ -4,7 +4,7 @@ const Card = styled.span`
   padding: 20px;
   display: inline-block;
   border-radius: 2px;
-  box-shadow: 0px 1px 3px #DDD;
+  box-shadow: 0px 1px 2px #DDD;
 `
 
 export default Card

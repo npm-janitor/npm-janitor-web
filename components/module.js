@@ -1,4 +1,6 @@
 import Card from './card'
+import Link from './link'
+import Bold from './bold'
 
 const GridItem = styled(Card)`
   width: 300px;
@@ -8,14 +10,10 @@ const GridItem = styled(Card)`
   background: ${props => props.valid ? '#FFF' : '#F2C5C5'}
 `
 
-const Name = styled.div`
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 10px;
-`
-
 const Module = ({module}) => <GridItem valid={module.valid}>
-  <Name>{module.name}</Name>
+  <Link href={`https://npmjs.com/${module.name}`} target="blank">
+    <Bold>{module.name}</Bold>
+  </Link>
   <div>errors: {module.errors && module.errors.length || 0}</div>
   <div>warnings: {module.warnings && module.warnings.length || 0}</div>
   <div>recommendations: {module.recommendations && module.recommendations.length || 0}</div>

@@ -11,7 +11,7 @@ const get = (username) => {
       warnings: module.info.warnings,
       recommendations: module.info.recommendations
     }))
-    return {data: modules}
+    return {modules: modules}
   })
   .catch(error => ({error: error.response.data.message}))
 }

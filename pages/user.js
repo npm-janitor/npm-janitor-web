@@ -22,7 +22,7 @@ const User = class extends React.Component {
     return <div>
       <Header full={this.state.fullHeader} username={this.props.url.query.name}/>
       <Grid>
-        {this.props.data.map((module, index) => <Module key={index} module={module}/>)}
+        {this.props.modules.map((module, index) => <Module key={index} module={module}/>)}
       </Grid>
     </div>
   }

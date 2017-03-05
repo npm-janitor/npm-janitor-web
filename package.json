@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "eslint ."
+    "test": "eslint . && jest --coverage"
   },
   "engines": {
     "node": ">=7.6.0"
@@ -33,8 +33,20 @@
   },
   "devDependencies": {
     "babel-eslint": "7.1.1",
+    "babel-jest": "19.0.0",
     "babel-plugin-styled-components-require": "1.0.0",
     "eslint": "3.16.0",
     "jest": "19.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "components/**/*.js",
+      "pages/**/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/pages/_document.js",
+      "<rootDir>/pages/_global.js"
+    ],
+    "coverageDirectory": "coverage"
   }
 }

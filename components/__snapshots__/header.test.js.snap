@@ -12,15 +12,20 @@ exports[`renders correctly 1`] = `
     <div>
       <input
         autoFocus={true}
-        className="ftiIRS"
+        className="IoGtR"
         defaultValue={undefined}
         onChange={[Function]}
         onKeyUp={[Function]}
         placeholder="enter your npm username"
         type="text"
       />
+      <span
+        className="ekknR"
+      >
+        ↵
+      </span>
       <div
-        className="htwhPz"
+        className="kfVcvr"
       />
     </div>
   </div>

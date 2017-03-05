@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders with modules 1`] = `
 <div>
   <div
     className="XRAxu"
@@ -13,15 +13,20 @@ exports[`renders correctly 1`] = `
       <div>
         <input
           autoFocus={true}
-          className="ftiIRS"
+          className="glpeKX"
           defaultValue="siddharthkp"
           onChange={[Function]}
           onKeyUp={[Function]}
           placeholder="enter your npm username"
           type="text"
         />
+        <span
+          className="gnClft"
+        >
+          ↵
+        </span>
         <div
-          className="bvUXDN"
+          className="jGuHrJ"
         />
       </div>
     </div>
@@ -78,6 +83,48 @@ exports[`renders correctly 1`] = `
         className="imcGyF"
       />
     </span>
+    
+  </div>
+</div>
+`;
+
+exports[`renders without modules 1`] = `
+<div>
+  <div
+    className="XRAxu"
+  >
+    <div>
+      <img
+        className="etfsU"
+        src="static/logo.png"
+      />
+      <div>
+        <input
+          autoFocus={true}
+          className="glpeKX"
+          defaultValue=""
+          onChange={[Function]}
+          onKeyUp={[Function]}
+          placeholder="enter your npm username"
+          type="text"
+        />
+        <span
+          className="iBvdDm"
+        >
+          ↵
+        </span>
+        <div
+          className="jGuHrJ"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="lIpXm"
+  >
+    <img
+      src="static/nothing.png"
+    />
   </div>
 </div>
 `;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders big version 1`] = `
+<img
+  className="cMyKIV"
+  src="static/logo.png"
+/>
+`;
+
+exports[`renders small version 1`] = `
+<img
+  className="etfsU"
+  src="static/logo.png"
+/>
+`;

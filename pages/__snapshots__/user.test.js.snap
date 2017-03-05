@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with modules 1`] = `
+<div>
+  <div
+    className="XRAxu"
+  >
+    <div>
+      <img
+        className="etfsU"
+        src="static/logo.png"
+      />
+      <div>
+        <input
+          autoFocus={true}
+          className="glpeKX"
+          defaultValue="siddharthkp"
+          onChange={[Function]}
+          onKeyUp={[Function]}
+          placeholder="enter your npm username"
+          type="text"
+        />
+        <span
+          className="gnClft"
+        >
+          ↵
+        </span>
+        <div
+          className="jGuHrJ"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="lIpXm"
+  >
+    <span
+      className="gXtLUw"
+    >
+      <a
+        className="igpMrq"
+        href="https://npmjs.com/npm-janitor-web"
+        target="blank"
+      >
+        <div
+          className="jgJsZQ"
+          color=""
+        >
+          npm-janitor-web
+        </div>
+      </a>
+      <div>
+        
+        <div>
+          Add recommended 
+          field
+          : 
+          <span>
+            <span
+              className="lhecVm"
+            >
+              Add recommended field: contributors
+            </span>
+            <br />
+            <br />
+          </span>
+        </div>
+        <div>
+          Add optional 
+          field
+          : 
+          <span>
+            <span
+              className="lhecVm"
+            >
+              Add optional field: homepage
+            </span>
+            <br />
+            <br />
+          </span>
+        </div>
+      </div>
+      <div
+        className="imcGyF"
+      />
+    </span>
+    
+  </div>
+</div>
+`;
+
+exports[`renders without modules 1`] = `
+<div>
+  <div
+    className="XRAxu"
+  >
+    <div>
+      <img
+        className="etfsU"
+        src="static/logo.png"
+      />
+      <div>
+        <input
+          autoFocus={true}
+          className="glpeKX"
+          defaultValue=""
+          onChange={[Function]}
+          onKeyUp={[Function]}
+          placeholder="enter your npm username"
+          type="text"
+        />
+        <span
+          className="iBvdDm"
+        >
+          ↵
+        </span>
+        <div
+          className="jGuHrJ"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="lIpXm"
+  >
+    <img
+      src="static/nothing.png"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <div>
+       
+      1
+       
+      error
+    </div>
+    <div>
+      - 
+      name is not valid
+    </div>
+    <br />
+  </div>
+  <div>
+    Add recommended 
+    field
+    : 
+    <span>
+      <span
+        className="lhecVm"
+      >
+        contributors
+      </span>
+      <br />
+      <br />
+    </span>
+  </div>
+  <div>
+    Add optional 
+    field
+    : 
+    <span>
+      <span
+        className="lhecVm"
+      >
+        engines
+      </span>
+      <br />
+      <br />
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders invalid module 1`] = `
+<span
+  className="TpbjZ"
+>
+  <a
+    className="igpMrq"
+    href="https://npmjs.com/module"
+    target="blank"
+  >
+    <div
+      className="gclOdG"
+      color="#c0392b"
+    >
+      module
+    </div>
+  </a>
+  <div>
+    <div>
+      <div>
+         
+        1
+         
+        error
+      </div>
+      <div>
+        - 
+        name is not allowed
+      </div>
+      <br />
+    </div>
+    
+    
+  </div>
+  <div
+    className="kUklBY"
+  />
+</span>
+`;
+
+exports[`renders valid module 1`] = `
+<span
+  className="gXtLUw"
+>
+  <a
+    className="igpMrq"
+    href="https://npmjs.com/module"
+    target="blank"
+  >
+    <div
+      className="jgJsZQ"
+      color=""
+    >
+      module
+    </div>
+  </a>
+  <div>
+    
+    
+    
+  </div>
+  <div
+    className="huXapt"
+  />
+</span>
+`;

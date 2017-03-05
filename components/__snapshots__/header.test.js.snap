@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="evniLY"
+>
+  <div>
+    <img
+      className="cMyKIV"
+      src="static/logo.png"
+    />
+    <div>
+      <input
+        autoFocus={true}
+        className="IoGtR"
+        defaultValue={undefined}
+        onChange={[Function]}
+        onKeyUp={[Function]}
+        placeholder="enter your npm username"
+        type="text"
+      />
+      <span
+        className="ekknR"
+      >
+        ↵
+      </span>
+      <div
+        className="kfVcvr"
+      />
+    </div>
+  </div>
+</div>
+`;

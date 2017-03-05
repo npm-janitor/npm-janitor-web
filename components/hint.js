@@ -6,7 +6,7 @@ const blink = keyframes`
   100% {opacity: 0}
 `
 
-const Tip = styled.span`
+const Hint = styled.span`
   margin: 20px auto 0;
   height: 25px;
   color: #777;
@@ -16,4 +16,4 @@ const Tip = styled.span`
   animation: ${props => props.blink ? blink : 'none'} 2s linear infinite;
 `
 
-export default Tip
+export default Hint

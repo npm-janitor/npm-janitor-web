@@ -2,7 +2,7 @@ import Router from 'next/router'
 import Logo from './logo'
 import Input from './input'
 import Loading from './loading'
-import Tip from './tip'
+import Hint from './hint'
 
 const timingFunction = 'cubic-bezier(0.19, 1, 0.22, 1)'
 
@@ -33,7 +33,7 @@ const Header = class extends React.Component {
   onChange = event => this.setState({username: event.target.value})
 
   onKeyUp = event => {
-    if (event.which === 13) {
+    if (event.which === 13 && this.state.username) {
       Router.push(`/user?name=${this.state.username}`)
       /*
         The user page is rendered on the server,
@@ -56,7 +56,7 @@ const Header = class extends React.Component {
             defaultValue={this.props.username}
             full={!this.state.full}
           />
-          <Tip show={this.state.username && !this.state.loading} blink={this.state.full && this.state.username}>↵</Tip>
+          <Hint show={this.state.username && !this.state.loading} blink={this.state.full && this.state.username}>↵</Hint>
           <Loading show={this.state.loading}/>
         </div>
       </div>
